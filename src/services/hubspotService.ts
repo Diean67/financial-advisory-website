@@ -166,7 +166,7 @@ class HubSpotService {
         method: 'POST',
         headers: {
           'Authorization': `Bearer ${this.apiKey}`,
-          'Content-Type': 'application/json`
+          'Content-Type': 'application/json'
         },
         body: JSON.stringify({
           vids: [contactEmail],
@@ -188,7 +188,7 @@ class HubSpotService {
         method: 'POST',
         headers: {
           'Authorization': `Bearer ${this.apiKey}`,
-          'Content-Type': 'application/json`
+          'Content-Type': 'application/json'
         },
         body: JSON.stringify({
           properties: {
@@ -222,7 +222,7 @@ class HubSpotService {
         method: 'PUT',
         headers: {
           'Authorization': `Bearer ${this.apiKey}`,
-          'Content-Type': 'application/json`
+          'Content-Type': 'application/json'
         },
         body: JSON.stringify({
           inputs: [{
